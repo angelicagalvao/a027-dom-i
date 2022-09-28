@@ -6,11 +6,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width" />
 
-  <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="stylesheet" href="style.css" /> -->
   <script src="script.js" defer></script>
 </head>
 
 <body>
+<label for="fruta">Adicione mais uma fruta</label>
+<input onkeydown="imprimir()" type="text" id="fruta" name="frutas"> 
+<button onclick="botao()">enter</button>
   <main>
     <ul id="lista-de-frutas">
       <li id="fruta-1"></li>
@@ -19,6 +22,8 @@
       <li id="fruta-4"></li>
     </ul>
   </main>
+
+
 </body>
 
 </html>
